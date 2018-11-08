@@ -1,13 +1,12 @@
 ---
-title: "I have the best titles"
-author: Your name here
-subtitle: Subtitle here if desired
+title: "Buffalo's Changeable temperature in October"
+author: Jianqiao Liu
+subtitle: A Class project based on ordinary kriging theory
 ---
 
 # Introduction
-My really awesome and complete introduction will go here.  
+Buffalo's temperature in October is very changeable in October. Take this year's October for example, we had a cool weekend with temnperature around 
 
-> I know words.  I have the best words.  ~ Donald Trump
 
 # Materials and methods
 
