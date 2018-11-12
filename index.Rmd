@@ -5,11 +5,11 @@ subtitle: A Class project based on ordinary kriging theory
 ---
 
 # Introduction
-Buffalo's temperature in October is very changeable. Take this year's October for example, we had a cool weekend with temperature around 70°F then following a 90°F hot weekday. Also, my travel experience shows that downtown area is usually cooler than UB north campus. However, the weather broadcast only reports one single temperature value for the whole city, which is not accurate enough. Such condition may cause health problems such as getting cold due to a sudden temperature drop. Imprecise broadcast may also make farmers ignore protection activities and will cause negative effect on the agriculture productivity. Based on a interview with an expert from weather institution, three factors can have main effect on the temperature change: wind speed, wind direction and sunshine. This study will focus on how the temperature spreads across the city based on ordinary kriging method and the linear relationship between temperature and three factors. 
+Buffalo's temperature in October is very changeable. Take this year's October for example, we had a cool weekend with temperature around 70°F then following a 90°F hot weekday. Also, my travel experience shows that downtown area is usually cooler than UB north campus. However, the weather broadcast only reports one single temperature value for the whole city, which is not accurate enough. Such condition may cause health problems such as getting cold due to a sudden temperature drop. Imprecise broadcast may also make farmers ignore protection activities and will cause negative effect on the agriculture productivity. Based on an interview with an expert from weather institution, three factors can have main effect on the temperature change: wind speed, wind direction and sunshine. This study will focus on how the temperature spreads across the city based on ordinary kriging method and discovering the linear relationship between temperature and three factors by regression method. 
 
 
 # Data for the study
-In this study we will use data acquired from NOAA, we will use API to get access to the data we want, first we need to check the necessary pacakge:
+In this study we will use data acquired from NOAA, the API is used to get access to the data we want, first we need to check the necessary pacakge:
 ```{r}
 library(tidyverse)
 library(httr)
