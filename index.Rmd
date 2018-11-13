@@ -25,11 +25,15 @@ library(bitops)
 ```
 # Method for the study
 (I learned the kriging method from another course by 11/8, still working on how to use R to conduct kriging interpolation, so these four parts are still under construction and could be finished before 11/20)
+
 # Results
 Show tables, plots, etc. and describe them.
+
 # Conclusions
 What have you learned?  Are there any broader implications?
+
 # References
+
 
 ####################fromat examples
 * The third most important thing
