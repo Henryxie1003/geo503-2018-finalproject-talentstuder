@@ -9,10 +9,10 @@
 <meta name="generator" content="pandoc" />
 
 
-<meta name="author" content="Your name here" />
+<meta name="author" content="Jianqiao Liu" />
 
 
-<title>I have the best titles</title>
+<title>Buffalo’s Changeable temperature in October</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -303,58 +303,45 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">I have the best titles</h1>
-<h3 class="subtitle"><em>Subtitle here if desired</em></h3>
-<h4 class="author"><em>Your name here</em></h4>
+<h1 class="title toc-ignore">Buffalo’s Changeable temperature in October</h1>
+<h3 class="subtitle"><em>A Class project based on ordinary kriging theory</em></h3>
+<h4 class="author"><em>Jianqiao Liu</em></h4>
 
 </div>
 
 
 <div id="introduction" class="section level1">
 <h1>Introduction</h1>
-<p>My really awesome and complete introduction will go here.</p>
-<blockquote>
-<p>I know words. I have the best words. ~ Donald Trump</p>
-</blockquote>
+<p>Buffalo’s temperature in October is very changeable. Take this year’s October for example, we had a cool weekend with temperature around 70°F then following a 90°F hot weekday. Also, my travel experience shows that downtown area is usually cooler than UB north campus. However, the weather broadcast only reports one single temperature value for the whole city, which is not accurate enough. Such condition may cause health problems such as getting cold due to a sudden temperature drop. Imprecise broadcast may also make farmers ignore protection activities and will cause negative effect on the agriculture productivity. Based on an interview with an expert from weather institution, three factors can have main effect on the temperature change: wind speed, wind direction and sunshine.</p>
+<p>This study will focus on how the temperature spreads across the city over a 31-day period in October based on ordinary kriging method and discovering the linear relationship between temperature and three factors by using regression method.</p>
 </div>
-<div id="materials-and-methods" class="section level1">
-<h1>Materials and methods</h1>
-<p>Narrative and most code will go here. Describe what you are doing and show how to do it (with code).</p>
-<p>You can do bullets like this:</p>
+<div id="data-for-the-study" class="section level1">
+<h1>Data for the study</h1>
+<p>The data used for this study will be acquired from NOAA’s climate data online, the original data was recorded in csv file. The original data has many fields that the research doesn’t need and some stations miss necessary data. I have used excel to do some pretreatment on the dataset. *check the package needed for the study</p>
+<pre class="r"><code>library(rmarkdown)
+library(knitr)
+library(RCurl)</code></pre>
+<pre><code>## Loading required package: bitops</code></pre>
+<pre class="r"><code>library(bitops)</code></pre>
+<p>*read data from my github repository</p>
+<pre class="r"><code>1+1+1</code></pre>
+<pre><code>## [1] 3</code></pre>
+</div>
+<div id="method-for-the-study" class="section level1">
+<h1>Method for the study</h1>
+<p>(I learned the kriging method from another course by 11/8, still working on how to use R to conduct kriging interpolation, so these four parts are still under construction and could be finished before 11/20) # Results Show tables, plots, etc. and describe them. # Conclusions What have you learned? Are there any broader implications? # References</p>
+<div id="fromat-examples" class="section level20">
+<p>fromat examples</p>
 <ul>
-<li>The first most important thing</li>
-<li>The second most important thing</li>
 <li>The third most important thing</li>
 </ul>
-<p>You can do numbers like this:</p>
 <ol style="list-style-type: decimal">
 <li>The first most important thing</li>
-<li>The second most important thing</li>
-<li>The third most important thing</li>
 </ol>
 <p>See <a href="http://rmarkdown.rstudio.com/" class="uri">http://rmarkdown.rstudio.com/</a> for all the amazing things you can do.</p>
-<p>Here’s my first code chunk.</p>
-<pre class="r"><code>1+2</code></pre>
-<pre><code>## [1] 3</code></pre>
-<p>Load any required packages in a code chunk (you may need to install some packages):</p>
-<pre class="r"><code>library(dplyr)
-library(ggplot2)
-library(maps)
-library(spocc)
-knitr::opts_chunk$set(cache=TRUE)  # cache the results for quick compiling</code></pre>
 <p>We are going to use the <code>occ()</code> function to download <em>occurrence</em> records for the American robin (<em>Turdus migratorius</em>) from the <a href="gbif.org">Global Biodiversity Information Facility</a>.</p>
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Turdus-migratorius-002.jpg" alt="alt text" width="200"> <small><small><small>Licensed under CC BY-SA 3.0 via <a href="https://commons.wikimedia.org/wiki/File:Turdus-migratorius-002.jpg#/media/File:Turdus-migratorius-002.jpg">Wikimedia Commons</a></small></small></small></p>
 </div>
-<div id="results" class="section level1">
-<h1>Results</h1>
-<p>Show tables, plots, etc. and describe them.</p>
-</div>
-<div id="conclusions" class="section level1">
-<h1>Conclusions</h1>
-<p>What have you learned? Are there any broader implications?</p>
-</div>
-<div id="references" class="section level1">
-<h1>References</h1>
 </div>
 
 <!-- give the footer some space -->
