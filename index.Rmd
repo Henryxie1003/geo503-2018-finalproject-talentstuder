@@ -21,10 +21,10 @@ library(knitr)
 library(RCurl)
 ```
 
-* read data from my github repository
+* First check the format of data
 
 ```{r}
-1+1+1
+read.csv('data.csv', nrow=5)
 ```
 
 # Method for the study
