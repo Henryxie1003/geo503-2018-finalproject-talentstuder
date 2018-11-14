@@ -11,7 +11,7 @@ This study will focus on how the temperature spreads across the city over a 31-d
 
 
 # Data for the study
-The data used for this study will be acquired from NOAA's climate data online, the original data was recorded in csv file. The original data has many fields that the research doesn't need and some stations miss necessary data. I have used excel to do some pretreatment on the dataset.
+The data used for this study will be acquired from NOAA's climate data online, the original data was recorded in csv file. The original data has many fields that the research doesn't need and some stations miss necessary data. I have used excel to do some pretreatment on the dataset. 
 
 * check the package needed for the study
 
@@ -28,7 +28,7 @@ read.csv('data.csv', nrow=5)
 ```
 
 # Method for the study
-(I learned the kriging method from another course by 11/8, still working on how to use R to conduct kriging interpolation, so these four parts are still under construction and could be finished before 11/20)
+(I learned the kriging method from another course by 11/8, still working on how to use R to conduct kriging interpolation, so these four parts are still under construction and could be finished before 11/20) 
 
 # Results
 Show tables, plots, etc. and describe them.
